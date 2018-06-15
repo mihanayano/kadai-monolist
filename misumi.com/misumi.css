@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+#sq1{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    
+}
+
+#sq2{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: red; 
+    float: left;
+    
+}
+
+#sq3{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+
+#sq4{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+#sq5{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    float: left;
+}
+
+#sq6{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
