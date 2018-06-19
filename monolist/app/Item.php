@@ -17,4 +17,10 @@ protected $fillable = ['code', 'name', 'url', 'image_url'];
     {
         return $this->users()->where('type', 'want');
     }
+    public function have_users()
+    {
+        return $this->users()->where('type', 'have');
+    }
+    
+    
 }
