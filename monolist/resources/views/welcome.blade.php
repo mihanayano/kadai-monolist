@@ -14,6 +14,8 @@
 @endsection
 
 @section('content')
+ @if (Auth::check())
     @include('items.items')
     {!! $items->render() !!}
+ @endif
 @endsection
